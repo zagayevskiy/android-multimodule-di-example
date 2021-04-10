@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42a5f5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feature2Fragment" />
+
+    <Button
+        android:id="@+id/feature2_show_feature1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Feature1 inside Feature 2" />
+
+    <FrameLayout
+        android:id="@+id/feature2_other_features_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

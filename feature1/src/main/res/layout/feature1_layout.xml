@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#df78ef"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feature1Fragment" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caption:"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/feature1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/feature1_update_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update caption" />
+
+    <Button
+        android:id="@+id/feature1_crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What happens when no deps found"
+        />
+
+</LinearLayout>
